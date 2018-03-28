@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="70" height="50" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="grassy_tileset" tilewidth="32" tileheight="32" tilecount="800" columns="20">
+  <image source="../tileSets/grassy_tileset.png" width="640" height="1280"/>
+  <tile id="0">
+   <properties>
+    <property name="collisable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="collisable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="collisable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="801" name="DungeonCrawl_ProjectUtumnoTileset" tilewidth="32" tileheight="32" tilecount="3072" columns="64">
+  <image source="../tileSets/DungeonCrawl_ProjectUtumnoTileset.png" width="2048" height="1536"/>
+  <tile id="1024">
+   <properties>
+    <property name="collisable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1051">
+   <properties>
+    <property name="collisable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1088">
+   <properties>
+    <property name="collisable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="FirstLayer" width="70" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2bQQ6CMBREy0bOwcKVp2LjaTTRxKN4Js+hjWlSmymtQOn/ZV4yIRgU+jLwdeHQGzMwMJ3ZPpKhF4wEL8/DdGogwYtE6AVDL5g1vJgF75MK+4JZqy8xUrOm5syZYomXXFrsi09sPak1tu4lBB0X22/NyxrX36KXkM7b2uQ+U1vy4pPzrMldt2YvjrAf4b4JjtXShxTOC/mFXjCSvEj6blzaS+31zUVSXyRBLxh6wdALhl4wU15O4PXcWTp35kiY0Rb2BZPygjqzB3L7Yv3syRHvIwy9YJAXKTOhJhr7ssXvbo1etoBeMPSCoRcMvWDoBVPay/Hz2Zf+u9VESS/WxcuLJjelvDwCJy43JW5KeQm7oq0zpbzcI16uCr2MfX5SSOnLP2vy18b7CEMvGOflvDDjYX6WnrtEcv+ftMe8AcaQkv+wNgAA
+  </data>
+ </layer>
+</map>
